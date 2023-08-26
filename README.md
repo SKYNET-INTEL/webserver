@@ -1,4 +1,0 @@
-# skynet Ground Control Station
-
-
-
