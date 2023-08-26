@@ -1,0 +1,3 @@
+CONFIG += WarningsAsErrors
+DEFINES += DISABLE_AIRMAP
+
