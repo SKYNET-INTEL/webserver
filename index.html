@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"> <!-- Include your CSS file here -->
+  <title>Responsive Mapbox Map</title>
+  <style>
+    /* CSS to make the iframe background dark */
+    #mapbox-iframe {
+      background-color: #000;
+    }
+  </style>
+</head>
+<body>
+  <div class="responsive-map">
+    <!-- Use iframe to display the map with the dark style -->
+    <iframe id="mapbox-iframe" src="https://api.mapbox.com/styles/v1/mapbox/dark-v10.html?title=true&access_token=pk.eyJ1IjoiZ2F1cmF2cmFqcHV0NTEiLCJhIjoiY2xtN2lreGMyMDE5ajNlbzVoNmR6ODhleCJ9.Ju9G4noNVoKdMkBSUTIstQ" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+
+  <!-- No need for JavaScript buttons, as the map is dark by default -->
+</body>
+</html>
